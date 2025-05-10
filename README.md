@@ -67,5 +67,5 @@ builder.Services.AddScoped<IGastoService, GastoService>();
 
 ##Integrantes
 - Adolfo Chaverra
-- - Juan Jose Castro
+- Juan Jose Castro
 
