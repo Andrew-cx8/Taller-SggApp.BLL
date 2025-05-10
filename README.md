@@ -7,6 +7,7 @@ SggApp es una aplicación diseñada para la gestión de gastos personales. Esta 
 ## Estructura del Proyecto
 
 El proyecto está organizado en varias capas, cada una con su propia responsabilidad:
+```
 SggApp/
 ├── SggApp.BLL/                # Capa de Lógica de Negocio
 │   ├── Interfaces/            # Interfaces de servicios
@@ -27,7 +28,7 @@ SggApp/
 ├── SggApp.DAL/                # Capa de Acceso a Datos
 ├── SggApp.API/                # Capa de Presentación (API)
 └── ...
-
+```
 ## Funcionalidades
 
 - **Registro de Gastos**: Permite a los usuarios agregar nuevos gastos.
