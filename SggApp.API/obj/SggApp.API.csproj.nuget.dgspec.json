@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj": {}
+    "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj": {
+    "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj",
         "projectName": "SggApp.API",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.API\\obj\\",
+        "projectPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.API\\SggApp.API.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj"
+              "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj": {
+                "projectPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj"
+              "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj"
               }
             }
           }
@@ -82,17 +85,21 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj": {
+    "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj",
         "projectName": "SggApp.BLL",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.BLL\\obj\\",
+        "projectPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.BLL\\SggApp.BLL.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,15 +107,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj"
+              "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj"
               }
             }
           }
@@ -148,17 +154,21 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj": {
+    "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj",
         "projectName": "SggApp.DAL",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\SggApp.BLL\\SggApp.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\SggApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andres\\Documents\\PROYECTOS C#\\2025\\Taller PT 4\\SggApp.BLL\\SggApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,7 +176,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

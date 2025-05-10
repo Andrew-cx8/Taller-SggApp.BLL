@@ -11,9 +11,7 @@ public string Email { get; set; } // Correo electrónico (único)
 public string PasswordHash { get; set; } // Contraseña (cifrada???)
 public DateTime FechaRegistro { get; set; } // Fecha de registro
 // Relaciones
-public ICollection<Gasto> Gastos { get; set; } // Un usuario puede tener
-muchos gastos
-public ICollection<Presupuesto> Presupuestos { get; set; } // Un usuario
-puede tener muchos presupuestos
+public ICollection<Gasto> Gastos { get; set; } // Un usuario puede tener muchos gastos
+public ICollection<Presupuesto> Presupuestos { get; set; } // Un usuario puede tener muchos presupuestos
 }
 }

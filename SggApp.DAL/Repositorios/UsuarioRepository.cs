@@ -18,8 +18,7 @@ public async Task<Usuario> GetByEmailAsync(string email)
 return await _context.Usuarios.FirstOrDefaultAsync(u => u.Email ==
 email);
 }
-// Método específico: Verificar si un correo electrónico ya está
-registrado
+// Método específico: Verificar si un correo electrónico ya está registrado
 public async Task<bool> EmailExistsAsync(string email)
 {
 return await _context.Usuarios.AnyAsync(u => u.Email == email);

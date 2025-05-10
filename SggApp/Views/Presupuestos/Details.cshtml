@@ -1,0 +1,35 @@
+@model SggApp.Web.Models.PresupuestoViewModel
+@{
+ViewData["Title"] = "Detalles del Presupuesto";
+}
+<div class="container mt-4">
+<div class="card">
+<div class="card-header">
+<h1 class="card-title">@ViewData["Title"]</h1>
+</div>
+<div class="card-body">
+<dl class="row">
+<dt class="col-sm-3">@Html.DisplayNameFor(model =>
+model.NombreCategoria)</dt>
+<dd class="col-sm-9">@Html.DisplayFor(model =>
+model.NombreCategoria)</dd>
+<dt class="col-sm-3">@Html.DisplayNameFor(model =>
+model.CodigoMoneda)</dt>
+<dd class="col-sm-9">@Html.DisplayFor(model => model.CodigoMoneda)
+</dd>
+<dt class="col-sm-3">@Html.DisplayNameFor(model => model.Monto)
+</dt>
+<dd class="col-sm-9">@Html.DisplayFor(model => model.Monto)</dd>
+</dl>
+</div>
+<div class="card-footer text-end">
+<a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-
+warning">
+<i class="bi bi-pencil-square"></i> Editar
+</a>
+<a asp-action="Index" class="btn btn-secondary">
+<i class="bi bi-arrow-left-circle"></i> Volver
+</a>
+</div>
+</div>
+</div>
