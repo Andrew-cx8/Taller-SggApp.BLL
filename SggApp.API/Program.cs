@@ -1,3 +1,8 @@
+using SggApp.DAL.Repositorios;
+using SggApp.BLL.Interfaces;
+using SggApp.BLL.Servicios;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -48,3 +53,64 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 var app = builder.Build();
 app.MapControllers();
 app.Run();
+
+//Registra capa de presentacion
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"
+)));
+
+// Ejemplo de registros en Program.cs
+var builder = WebApplication.CreateBuilder(args);
+// ... (Registro de DbContext) ...
+// Registrar Repositorios (DAL)
+builder.Services.AddScoped<UsuarioRepository>();
+// Acá los demás ...
+// Registrar Servicios (BLL)
+builder.Services.AddScoped<UsuarioRepository>();
+// ... registrar GastoRepository, CategoriaRepository, MonedaRepository, PresupuestoRepository ...
+
+// Registrar Servicios (BLL) - Igual que antes
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+// ... registrar IGastoService, ICategoriaService, IMonedaService,IPresupuestoService ...
+
+// ... (AddControllers, Swagger, Autenticación/Autorización, CORS, etc.) ...
+var app = builder.Build();
+// ... (Configuración del pipeline HTTP: UseCors, UseAuthentication,UseAuthorization, MapControllers, etc.) ...
+
+// Registro de repositorios (DAL)
+builder.Services.AddScoped<UsuarioRepository>();
+builder.Services.AddScoped<GastoRepository>();
+builder.Services.AddScoped<CategoriaRepository>();
+builder.Services.AddScoped<MonedaRepository>();
+builder.Services.AddScoped<PresupuestoRepository>();
+
+// Registro de servicios (BLL)
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IGastoService, GastoService>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+builder.Services.AddScoped<IMonedaService, MonedaService>();
+builder.Services.AddScoped<IPresupuestoService, PresupuestoService>();
+
+// Otros servicios del framework
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+// Middleware estándar
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
+
+
+
+app.Run();
+
