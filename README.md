@@ -56,5 +56,16 @@ public class GastoService : IGastoService {
         return await _gastoRepository.GetAllAsync();
     }
 }
+```
+## Inyección de Dependencias
+La aplicación utiliza inyección de dependencias para gestionar la creación y el ciclo de vida de los servicios. En el archivo Program.cs, se registran los servicios y repositorios:
 
+```csharp
+builder.Services.AddScoped<GastoRepository>();
+builder.Services.AddScoped<IGastoService, GastoService>();
+```
+
+##Integrantes
+- Adolfo Chaverra
+- - Juan Jose Castro
 
