@@ -66,7 +66,7 @@ builder.Services.AddScoped<GastoRepository>();
 builder.Services.AddScoped<IGastoService, GastoService>();
 ```
 
-##Integrantes
+## Integrantes
 - Adolfo Chaverra
 - Juan Jose Castro
 
